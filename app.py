@@ -7,9 +7,9 @@ st.title("CO2 Emission Prediction App 🚗💨")
 st.markdown("Predict how much CO2 your vehicle will emit based on specs.")
 
 # Load model, scaler, and column names
-model = pickle.load(open("lr_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
-columns = pickle.load(open("columns.pkl", "rb"))
+model = pickle.load(open("saved_models/lr_model.pkl", "rb"))
+scaler = pickle.load(open("saved_models/scaler.pkl", "rb"))
+columns = pickle.load(open("saved_models/columns.pkl", "rb"))
 
 # Input widgets
 year = st.slider("Model Year", 1995, 2025, 2015)
