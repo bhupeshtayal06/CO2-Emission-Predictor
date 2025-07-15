@@ -70,16 +70,14 @@ CO2-Emission-Predictor/
 
 ## 📥 Input Parameters
 
-The following parameters are used as input features in the CO₂ Emission Predictor app:
+The following input features are required by the model to predict CO₂ emissions:
 
-| Parameter                       | Description                                 | Example       |
-|----------------------------------|---------------------------------------------|---------------|
-| Engine Size (L)                 | Size of the vehicle's engine in liters      | 2.0           |
-| Cylinders                       | Number of engine cylinders                  | 4             |
-| Fuel Consumption City (L/100km)| Fuel used during city driving               | 9.5           |
-| Fuel Consumption Hwy (L/100km) | Fuel used during highway driving            | 6.7           |
-| Fuel Consumption Comb (L/100km)| Combined average fuel consumption           | 8.2           |
-| Fuel Type                       | Type of fuel (e.g., Regular, Premium, Diesel)| Regular       |
+| Parameter                    | Description                                 |
+|-----------------------------|---------------------------------------------|
+| **Model Year**              | Year in which the vehicle was manufactured  |
+| **Engine Size (L)**         | Size of the engine in litres                |
+| **Number of Cylinders**     | Total number of cylinders in the engine     |
+| **Fuel Consumption (L/100 km)** | Fuel consumption rate over 100 kilometers |
 
 ---
 
