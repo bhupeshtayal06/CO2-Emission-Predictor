@@ -4,7 +4,7 @@ A machine learning-powered Streamlit web app that predicts **vehicle CO₂ emiss
 
 ---
 
-![Streamlit App Screenshot](https://user-images.githubusercontent.com/your-screenshot-link.png) <!-- Replace with your actual screenshot link -->
+![Streamlit App Screenshot](streamlit app screenshot.png) 
 
 ## 🔗 Live Demo
 
@@ -24,3 +24,32 @@ A machine learning-powered Streamlit web app that predicts **vehicle CO₂ emiss
 
 ## 📂 Project Structure
 
+```
+CO2-Emission-Predictor/
+├── app.py
+├── README.md
+├── requirements.txt
+│
+├── .devcontainer/
+│   └── devcontainer.json
+│
+├── assets/
+│   └── streamlit app screenshot.png
+│
+├── datasets/
+│   ├── emission.csv
+│   └── FuelConsumption (1).csv
+│
+├── models/
+│   ├── decision_tree_regressor.ipynb
+│   ├── linear_regression.ipynb
+│   ├── model.ipynb
+│   ├── random_forest_regressor.ipynb
+│   └── Support_Vector_Regressor.ipynb
+│
+└── saved_models/
+    ├── columns.pkl
+    ├── lr_model.pkl
+    └── scaler.pkl
+
+```
